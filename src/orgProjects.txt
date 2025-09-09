@@ -1,0 +1,24 @@
+ <section id="projects" className="py-16 text-black bg-slate-900 text-center">
+    <h2 className="text-3xl font-bold mb-8 text-white">Projects</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6">{/* hover:bg-gradient-to-br from-blue-500 to-green-600 border-4 border-transparent */}
+      {projectList.map((proj, idx) => (
+        <a key={idx} href={proj.url} target="_blank" rel="noreferrer" className="block bg-gray-50 rounded shadow hover:shadow-lg transition rounded-4xl">
+          {/* <video autoPlay loop muted src={proj.video} alt={proj.name} className="w-full h-auto object-top rounded-xl" /> */}
+          <img 
+          src={proj.img} 
+          alt={proj.name} 
+          className="w-full h-auto object-top rounded-xl" 
+        />
+         {/*  <img  src={img} alt={proj.name} className="w-full h-auto object-top rounded-xl" /> */}
+          <div className="p-4">
+            <h3 className="text-xl font-semibold">{proj.name}</h3>
+            <p className="text-gray-600">{proj.desc}</p>
+           {/*  <FontAwesomeIcon icon="fa-brands fa-github" />  */}
+             {/* <i className="fa-brands fa-github"></i>  */}
+           {/*  <FontAwesomeIcon icon="fa-brands fa-github" />  */}
+           {/*   <a target="_blank" href="https://github.com/MichaelFoisy12/Smarthealthypets"><i class="fa-brands fa-github"></i></a>  */}
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
