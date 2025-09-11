@@ -11,13 +11,13 @@ import {
 const data = [
   { skill: "React", level: 70 },
   { skill: "JavaScript", level: 70 },
-  { skill: 'HTML/CSS', level: 70 },
-  { skill: "TailwindCSS", level: 70 },
+  { skill: "Java", level: 50 },
   { skill: "Python", level: 50 },
-  { skill: 'Java', level: 50 },
-  { skill: "SQL", level:50 },
+  { skill: "TailwindCSS", level: 70 },
+  { skill: "HTML/CSS", level: 70 },
+  { skill: "MySQL", level:50 },
+  { skill: "GitHub", level: 50 },
   { skill: "Node.js", level: 50 },
-  { skill: 'GitHub', level: 50 },
 ];
 
 
